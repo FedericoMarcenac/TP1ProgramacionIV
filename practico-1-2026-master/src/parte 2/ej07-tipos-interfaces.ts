@@ -31,7 +31,13 @@ export function crearAlumnoInterface(
     email: string
 ): AlumnoInterface {
     // TODO
-    throw new Error("Implementar");
+    return {
+        legajo: legajo,
+        nombre: nombre,
+        apellido: apellido,
+        edad: edad,
+        email: email
+    };
 }
 
 // -----------------------------------------------------------------------------
@@ -41,7 +47,7 @@ export type AlumnoType = {
     legajo: number;
     nombre: string;
     apellido: string;
-    edad: number;
+    edad: number; 
     email: string;
 };
 
@@ -53,5 +59,12 @@ export function crearAlumnoType(
     email: string
 ): AlumnoType {
     // TODO
-    throw new Error("Implementar");
+    return {
+        legajo: legajo,
+        nombre: nombre,
+        apellido: apellido,
+        edad: edad,
+        email: email
+    };
+
 }
